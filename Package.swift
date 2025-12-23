@@ -4,9 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "Models",
+    name: "SalinaCompanionModels",
     platforms: [.iOS(.v16), .macOS(.v13)],
-    products: [.library(name: "Models", targets: ["Models"])],
+    products: [
+        .library(name: "SalinaCompanionModels", targets: ["SalinaCompanionModels"])
+    ],
     dependencies: [],
-    targets: [.target(name: "Models")]
+    targets: [
+        .target(name: "SalinaCompanionModels")
+    ]
 )

@@ -1,10 +1,3 @@
-//
-//  CodingKeys.swift
-//  Models
-//
-//  Created by Vilém Raška on 23.12.2025.
-//
-
 import CoreLocation
 
 extension CLLocationCoordinate2D: @retroactive Codable {
