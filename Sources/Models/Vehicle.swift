@@ -1,14 +1,13 @@
-import CoreLocation
 
 public struct Vehicle: Codable {
     public let id: String
-    public let position: CLLocationCoordinate2D
+    public let position: Location
     public let bearing: Int
     public let tripId: Int
     
     public init(
         id: String,
-        position: CLLocationCoordinate2D,
+        position: Location,
         bearing: Int,
         tripId: Int
     ) {
