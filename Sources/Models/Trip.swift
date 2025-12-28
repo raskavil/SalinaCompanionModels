@@ -1,6 +1,6 @@
 
 public struct Trip: Codable, Sendable {
-    public let tripId: Int
+    public let tripId: String
     public let routeId: String
     public let lineName: String
     public let headsign: String
@@ -9,7 +9,7 @@ public struct Trip: Codable, Sendable {
     public let backgroundColorHex: String
     
     public init(
-        tripId: Int,
+        tripId: String,
         routeId: String,
         lineName: String,
         headsign: String,
